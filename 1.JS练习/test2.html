@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>window对象</title>
+
+<script type="text/javascript">
+
+function op(){
+
+    var a = confirm("欢迎━(*｀∀´*)ノ来到慕课网，点击【确定】一起嗨!");
+
+    if(a == true){
+
+        window.open('https://www.imooc.com','_blank','width=600px,height=400px');
+
+    }
+
+    else{
+
+        return;
+
+    }
+
+}
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<form>
+
+<input type="button" value="点击我，打开新窗口" onclick="op()"/>
+
+</form>
+
+</body>
+
+</html>

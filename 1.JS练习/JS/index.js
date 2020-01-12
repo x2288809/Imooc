@@ -78,3 +78,9 @@ function fourPractice() {
         }
     }
 }
+
+function mysplit(x){
+    var num = new Array();
+    num = x.split(";");
+    document.write(num);
+}

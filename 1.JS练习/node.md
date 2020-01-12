@@ -373,3 +373,43 @@ Math对象，提供对数据的数学计算。
     unshift()           向数组的开头添加一个或更多元素，并返回新的长度
     valueOf()           返回数组对象的原始值
 
+## 浏览器对象
+
+1. window对象
+
+window对象是BOM的核心，window对象指当前的浏览器窗口。
+
+- window对象方法:
+
+    alret()             显示带有一段消息和一个确认按钮的警告框    
+    prompt()            显示可提示用户输入的对话框  
+    confirm()           显示带有一段消息以及确认按钮和去取消按    钮的对话框
+    open()              打开一个新的浏览器窗口或查找一个已命名    的窗口
+    close()             关闭浏览器窗口
+    print()             打印当前窗口的内容
+    focus()             把键盘焦点给与一个窗口
+    blur()              把键盘焦点从顶层窗口移开    
+    moveBy()            可相对窗口的当前坐标把它移动指定的像素    
+    moveTo()            把窗口的左上角移动到一个指定的坐标  
+    resizeBy()          按照指定的像素调整窗口的大小    
+    resizeTo()          把窗口的大小调整到指定的宽度和高度  
+    scrollBy()          按照指定的像素值来滚动内容  
+    scrollTo()          把内容滚动到指定的坐标
+    setInterval()       每隔指定的时间执行代码
+    setTimeout()        在指定的延迟时间之后来执行代码
+    clearIntervaal()    取消setInterval()的设置
+    clearTimeout()      取消setTimeout()的设置
+
+2. JavaScript 计时器
+
+在JavaScript中，我们可以在设定的时间间隔之后来执行代码，而不是在函数被调用后立即执行。
+
+- 计时器类型：
+    一次性计时器：仅在指定的延迟时间之后触发一次。
+    间隔性触发计时器：每隔一定的时间间隔就触发一次。
+
+- 计时器方法：
+    setTimeout()        指定的延迟时间之后来执行代码
+    clearTimeout()      取消setTimeout()的设置
+    setInterval()       每隔指定的时间执行代码
+    clearInterval()     取消setInterval()的设置
